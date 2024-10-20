@@ -1,5 +1,9 @@
 # Face Recognition API
 
+## Important:
+ - If you come across this error `"Error processing request: File '{Yours url}\\Face-Recognization\\bin\\Debug\\net8.0\\haarcascade_frontalface_default.xml' not found"`
+ - You need to manually copy the `haarcascade_frontalface_default.xml` into the URl above.
+
 ## Save a Face
 
 - **Endpoint**: `POST /save`
